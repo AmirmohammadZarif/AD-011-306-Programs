@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "WTIAU_Prof_Gholamy_AD_011_306",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -41,6 +45,20 @@
 					"id" : "C1Q1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C1Q1-Debug-fb6186f087691e973439.json",
 					"name" : "C1Q1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C1Q2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C1Q2-Debug-53c54dec20b0f4ae2e9c.json",
+					"name" : "C1Q2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C1Q4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C1Q4-Debug-99c6a63f76a8848f8f23.json",
+					"name" : "C1Q4",
 					"projectIndex" : 0
 				}
 			]

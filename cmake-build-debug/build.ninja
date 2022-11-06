@@ -64,6 +64,68 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target C1Q4
+
+
+#############################################
+# Order-only phony target for C1Q4
+
+build cmake_object_order_depends_target_C1Q4: phony || CMakeFiles/C1Q4.dir
+
+build CMakeFiles/C1Q4.dir/Chapter1/Q5.cpp.o: CXX_COMPILER__C1Q4_Debug /Users/amirmohammad/CLionProjects/AD-011-306-Programs/Chapter1/Q5.cpp || cmake_object_order_depends_target_C1Q4
+  DEP_FILE = CMakeFiles/C1Q4.dir/Chapter1/Q5.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/C1Q4.dir
+  OBJECT_FILE_DIR = CMakeFiles/C1Q4.dir/Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C1Q4
+
+
+#############################################
+# Link the executable C1Q4
+
+build C1Q4: CXX_EXECUTABLE_LINKER__C1Q4_Debug CMakeFiles/C1Q4.dir/Chapter1/Q5.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/C1Q4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C1Q4
+  TARGET_PDB = C1Q4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target C1Q2
+
+
+#############################################
+# Order-only phony target for C1Q2
+
+build cmake_object_order_depends_target_C1Q2: phony || CMakeFiles/C1Q2.dir
+
+build CMakeFiles/C1Q2.dir/Chapter1/Q2.cpp.o: CXX_COMPILER__C1Q2_Debug /Users/amirmohammad/CLionProjects/AD-011-306-Programs/Chapter1/Q2.cpp || cmake_object_order_depends_target_C1Q2
+  DEP_FILE = CMakeFiles/C1Q2.dir/Chapter1/Q2.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/C1Q2.dir
+  OBJECT_FILE_DIR = CMakeFiles/C1Q2.dir/Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C1Q2
+
+
+#############################################
+# Link the executable C1Q2
+
+build C1Q2: CXX_EXECUTABLE_LINKER__C1Q2_Debug CMakeFiles/C1Q2.dir/Chapter1/Q2.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/C1Q2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C1Q2
+  TARGET_PDB = C1Q2.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target C1Q1
 
 
@@ -105,7 +167,7 @@ build C1Q1: CXX_EXECUTABLE_LINKER__C1Q1_Debug CMakeFiles/C1Q1.dir/Chapter1/Q1.cp
 #############################################
 # Folder: /Users/amirmohammad/CLionProjects/AD-011-306-Programs/cmake-build-debug
 
-build all: phony C1Q1
+build all: phony C1Q4 C1Q2 C1Q1
 
 # =============================================================================
 # Built-in targets
