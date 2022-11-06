@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(WTIAU_Prof_Gholamy_DS_011_306)
+project(WTIAU_Prof_Gholamy_AD_011_306)
 
 set(CMAKE_CXX_STANDARD 14)
 
